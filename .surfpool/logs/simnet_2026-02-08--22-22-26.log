@@ -1,0 +1,15 @@
+[2026-02-08--22-22-27 INFO actix_server::builder] starting 5 workers
+[2026-02-08--22-22-27 INFO actix_server::server] Tokio runtime found; starting in existing Tokio runtime
+[2026-02-08--22-22-27 INFO actix_server::server] starting service: "actix-web-service-127.0.0.1:18488", workers: 5, listening on: 127.0.0.1:18488
+[2026-02-08--22-22-27 INFO parity_ws] Listening for new connections on 127.0.0.1:8900.
+[2026-02-08--22-22-29 INFO txtx::svm::deploy_program] [Recovery Instructions] - An ephemeral authority account will be created and funded to write to the buffer account.
+[2026-02-08--22-22-29 INFO txtx::svm::deploy_program] [Recovery Instructions] - Please save the following information in case the deployment fails and the account needs to be recovered:
+[2026-02-08--22-22-29 INFO txtx::svm::deploy_program] [Recovery Instructions] - Ephemeral authority public key: 8n2dnrPgb1MWnnEqKGY49Mguk5MZmFA7pcZLn5rku1UH
+[2026-02-08--22-22-29 INFO txtx::svm::deploy_program] [Recovery Instructions] - Ephemeral authority secret key: [20, 8, 155, 105, 232, 19, 109, 149, 130, 90, 236, 90, 153, 132, 247, 218, 123, 138, 61, 114, 48, 136, 154, 1, 223, 184, 132, 178, 1, 14, 211, 198, 115, 138, 202, 246, 132, 99, 44, 106, 167, 197, 65, 101, 74, 138, 163, 56, 0, 141, 246, 4, 120, 24, 8, 17, 130, 189, 81, 224, 244, 79, 52, 30]
+[2026-02-08--22-22-30 INFO txtx::svm::deploy_program] Account Created - Ephemeral authority account created and funded to write to buffer
+[2026-02-08--22-22-30 INFO txtx::svm::deploy_program] [Recovery Instructions] - Creating program buffer account at pubkey 9h3ub94Coe6AweVibVGVN8Eb8rdVJAJ4zXnkZLCw4jsF
+[2026-02-08--22-22-31 INFO txtx::svm::deploy_program] Account Created - Program buffer account created
+[2026-02-08--22-22-47 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:38866.
+[2026-02-08--22-22-48 INFO txtx::svm::deploy_program] Buffer Ready - Writing to buffer account is complete
+[2026-02-08--22-22-49 INFO txtx::svm::deploy_program] Program Created - Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od has been deployed
+[2026-02-08--22-22-51 INFO txtx::svm::deploy_program] Complete - Ephemeral authority account closed and leftover funds returned to payer

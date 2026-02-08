@@ -1,0 +1,11 @@
+[2026-02-08--21-04-43 INFO txtx::svm::deploy_program] [Recovery Instructions] - An ephemeral authority account will be created and funded to write to the buffer account.
+[2026-02-08--21-04-43 INFO txtx::svm::deploy_program] [Recovery Instructions] - Please save the following information in case the deployment fails and the account needs to be recovered:
+[2026-02-08--21-04-43 INFO txtx::svm::deploy_program] [Recovery Instructions] - Ephemeral authority public key: FHyYSyK1cUhtWy2UTaKvY6GupCe2iLTQb51p53joZ7mQ
+[2026-02-08--21-04-43 INFO txtx::svm::deploy_program] [Recovery Instructions] - Ephemeral authority secret key: [196, 86, 145, 40, 100, 69, 41, 147, 101, 16, 50, 148, 157, 237, 122, 211, 110, 157, 98, 64, 219, 123, 141, 42, 216, 114, 175, 188, 183, 76, 227, 211, 212, 92, 215, 166, 170, 160, 46, 75, 243, 180, 65, 35, 186, 178, 46, 85, 52, 152, 13, 195, 214, 115, 1, 109, 78, 35, 51, 170, 42, 214, 216, 135]
+[2026-02-08--21-04-43 INFO txtx::svm::deploy_program] Pending - Sending transaction 1/367
+[2026-02-08--21-04-43 INFO txtx::svm::deploy_program] Account Created - Ephemeral authority account created and funded to write to buffer
+[2026-02-08--21-04-43 INFO txtx::svm::deploy_program] [Recovery Instructions] - Creating program buffer account at pubkey 9a2dywcLg2p2ASRmbii3TjDmgHQFZC5646tbUuF8enLj
+[2026-02-08--21-04-44 INFO txtx::svm::deploy_program] Account Created - Program buffer account created
+[2026-02-08--21-05-52 INFO txtx::svm::deploy_program] Buffer Ready - Writing to buffer account is complete
+[2026-02-08--21-05-53 INFO txtx::svm::deploy_program] Program Created - Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od has been deployed
+[2026-02-08--21-05-54 INFO txtx::svm::deploy_program] Complete - Ephemeral authority account closed and leftover funds returned to payer

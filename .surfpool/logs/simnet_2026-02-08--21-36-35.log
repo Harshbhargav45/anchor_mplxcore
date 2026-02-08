@@ -1,0 +1,1056 @@
+[2026-02-08--21-36-36 INFO actix_server::builder] starting 5 workers
+[2026-02-08--21-36-36 INFO actix_server::server] Tokio runtime found; starting in existing Tokio runtime
+[2026-02-08--21-36-36 INFO actix_server::server] starting service: "actix-web-service-127.0.0.1:18488", workers: 5, listening on: 127.0.0.1:18488
+[2026-02-08--21-36-36 INFO parity_ws] Listening for new connections on 127.0.0.1:8900.
+[2026-02-08--21-36-37 INFO surfpool::cli::simnet] Runbook 'deployment' execution started
+[2026-02-08--21-36-38 INFO txtx::svm::deploy_program] [Recovery Instructions] - An ephemeral authority account will be created and funded to write to the buffer account.
+[2026-02-08--21-36-38 INFO txtx::svm::deploy_program] [Recovery Instructions] - Please save the following information in case the deployment fails and the account needs to be recovered:
+[2026-02-08--21-36-38 INFO txtx::svm::deploy_program] [Recovery Instructions] - Ephemeral authority public key: 9XzKpNEiDsV3LmWjTNS8cRjisKKVgzCZVv2Xq1VX3Ha8
+[2026-02-08--21-36-38 INFO txtx::svm::deploy_program] [Recovery Instructions] - Ephemeral authority secret key: [98, 115, 107, 159, 39, 189, 251, 206, 243, 38, 64, 156, 246, 100, 73, 108, 137, 25, 235, 148, 247, 255, 66, 45, 231, 108, 90, 139, 146, 95, 92, 238, 126, 205, 188, 146, 241, 253, 156, 112, 144, 115, 102, 49, 1, 215, 174, 127, 175, 124, 112, 45, 13, 73, 78, 179, 219, 236, 196, 70, 47, 143, 55, 113]
+[2026-02-08--21-36-38 INFO txtx::svm::deploy_program] Pending - Sending transaction 1/367
+[2026-02-08--21-36-38 INFO txtx::svm::deploy_program] Account Created - Ephemeral authority account created and funded to write to buffer
+[2026-02-08--21-36-38 INFO txtx::svm::deploy_program] [Recovery Instructions] - Creating program buffer account at pubkey UHKSTKKW6XBVX76FEtPqpC6XFQo5UobLNXKN5GwwQah
+[2026-02-08--21-36-39 INFO txtx::svm::deploy_program] Account Created - Program buffer account created
+[2026-02-08--21-36-52 INFO txtx::svm::deploy_program] Buffer Ready - Writing to buffer account is complete
+[2026-02-08--21-36-54 INFO txtx::svm::deploy_program] Program Created - Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od has been deployed
+[2026-02-08--21-36-55 INFO txtx::svm::deploy_program] Complete - Ephemeral authority account closed and leftover funds returned to payer
+[2026-02-08--21-36-55 INFO surfpool::cli::simnet] Runbook 'deployment' execution completed
+[2026-02-08--21-37-14 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:45342.
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Transaction processed 36QiRtR7RRvvq1ECFtgcvCqc8PJs8Y2HDaYbBkDMGMzZYKBatrCCYb9ZoLGMN7FUAU34Yw9WheVLwYnRNzNXj8bA
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [1]
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program log: Instruction: InitializeMint2
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2779 of 202850 compute units
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-18 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:45356.
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Transaction processed 61RC22xgDg88igpDj78RhZfsBND8S7o3z3qvLTE7XjYwXEKCzXXBQeCm2CDM1AHCDHKURyuFhVxQM6AMzaEf2374
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [1]
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program log: Instruction: InitializeMint2
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2779 of 202850 compute units
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Transaction processed 3cLAdEVBqGd4Q7iDSaqC15tRDxb1eWgNdDTgHazjj1evL68csPGEaz9YMeamn1GHQfUApcugkHdwra4GLSMuDorW
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od invoke [1]
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program log: Instruction: Initialize
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [2]
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program log: Instruction: InitializeMint2
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2780 of 190537 compute units
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [2]
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program log: Create
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program log: Instruction: GetAccountDataSize
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 176948 compute units
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [3]
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program log: Initialize the associated token account
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program log: Instruction: InitializeImmutableOwner
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 170335 compute units
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program log: Instruction: InitializeAccount3
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 166451 compute units
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 20490 of 182423 compute units
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [2]
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program log: Create
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program log: Instruction: GetAccountDataSize
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 147929 compute units
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [3]
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program log: Initialize the associated token account
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program log: Instruction: InitializeImmutableOwner
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 141316 compute units
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program log: Instruction: InitializeAccount3
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 137432 compute units
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 21990 of 154904 compute units
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [2]
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od consumed 75993 of 200000 compute units
+[2026-02-08--21-37-18 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od success
+[2026-02-08--21-37-19 INFO surfpool::cli::simnet] Transaction processed 5obpuXeZjKPEsXdeenE4S3pnyPzc8ziPz7Rw593DoKvwnMTEUR1Yh4zqgT859wsecaK1KMsocGXAKRhADe4Psa1Q
+[2026-02-08--21-37-19 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [1]
+[2026-02-08--21-37-19 INFO surfpool::cli::simnet] Program log: Create
+[2026-02-08--21-37-19 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-19 INFO surfpool::cli::simnet] Program log: Instruction: GetAccountDataSize
+[2026-02-08--21-37-19 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 190133 compute units
+[2026-02-08--21-37-19 INFO surfpool::cli::simnet] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+[2026-02-08--21-37-19 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-19 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [2]
+[2026-02-08--21-37-19 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-19 INFO surfpool::cli::simnet] Program log: Initialize the associated token account
+[2026-02-08--21-37-19 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-19 INFO surfpool::cli::simnet] Program log: Instruction: InitializeImmutableOwner
+[2026-02-08--21-37-19 INFO surfpool::cli::simnet] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+[2026-02-08--21-37-19 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 183520 compute units
+[2026-02-08--21-37-19 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-19 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-19 INFO surfpool::cli::simnet] Program log: Instruction: InitializeAccount3
+[2026-02-08--21-37-19 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 179638 compute units
+[2026-02-08--21-37-19 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-19 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 24859 of 200000 compute units
+[2026-02-08--21-37-19 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+[2026-02-08--21-37-19 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:45362.
+[2026-02-08--21-37-20 INFO surfpool::cli::simnet] Transaction processed 3memtrHNf7LMj1YEfZkWSR7YyGUyUXXwrjZPozFqDynb9V9b8Xo2oVahUTh76tB6gyMy9LjpSFnMjvqLALfVJqpy
+[2026-02-08--21-37-20 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [1]
+[2026-02-08--21-37-20 INFO surfpool::cli::simnet] Program log: Create
+[2026-02-08--21-37-20 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-20 INFO surfpool::cli::simnet] Program log: Instruction: GetAccountDataSize
+[2026-02-08--21-37-20 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 190133 compute units
+[2026-02-08--21-37-20 INFO surfpool::cli::simnet] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+[2026-02-08--21-37-20 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-20 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [2]
+[2026-02-08--21-37-20 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-20 INFO surfpool::cli::simnet] Program log: Initialize the associated token account
+[2026-02-08--21-37-20 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-20 INFO surfpool::cli::simnet] Program log: Instruction: InitializeImmutableOwner
+[2026-02-08--21-37-20 INFO surfpool::cli::simnet] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+[2026-02-08--21-37-20 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 183520 compute units
+[2026-02-08--21-37-20 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-20 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-20 INFO surfpool::cli::simnet] Program log: Instruction: InitializeAccount3
+[2026-02-08--21-37-20 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 179638 compute units
+[2026-02-08--21-37-20 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-20 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 24859 of 200000 compute units
+[2026-02-08--21-37-20 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+[2026-02-08--21-37-20 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:45378.
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Transaction processed 3aspp7ppks1tYNREx3kqE7uV6hLpDfpg4J4GLcHCWG9ahcRpVYaJzxLNnTZG6aJ9eHPASk2n2nWBdTieJJX7SkAq
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [1]
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program log: Create
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program log: Instruction: GetAccountDataSize
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 194633 compute units
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [2]
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program log: Initialize the associated token account
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program log: Instruction: InitializeImmutableOwner
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 188020 compute units
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program log: Instruction: InitializeAccount3
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 184138 compute units
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 20359 of 200000 compute units
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+[2026-02-08--21-37-22 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:52886.
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Transaction processed 3GJ3pDaQZxxXrwKZx7icD85KCkbjRYwBRWs9rPJkCsW9ctr4XrDk9ejMzsKykq5riRFFkj3tCHrQEuVayWirhWtr
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program log: Instruction: MintTo
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4491 of 200000 compute units
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Transaction processed 5aSsSX4J1pkkuzd1opEsWbQFoL5b4BxckAhQPRfHA7WeTiuwZtrPpJZByqQCewUF4U7vytKePTooV95T4gsnNRzf
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program log: Instruction: MintTo
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4491 of 200000 compute units
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Transaction processed 2ThkbZAMrrHxYXe7yYr1UfwmCX7zbqoEMkyYUVjDk5aqbyqQYLUxf46NwQi1WAKCCrgJo5FSzWzyyq4SeeF4prV
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od invoke [1]
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program log: Instruction: Deposit
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program log: Instruction: Transfer
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 167978 compute units
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program log: Instruction: Transfer
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 161434 compute units
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program log: Instruction: MintTo
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4492 of 154870 compute units
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od consumed 50159 of 200000 compute units
+[2026-02-08--21-37-22 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od success
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Transaction processed 5ncHeXhLBs3je5YfbmPBUUaCeNw6ekpE9AcGf2Pc6wZFKNVsXLzrjWsrawXAsmcQn3mVMkUHo56cEKQZgyVwpsFY
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Program log: Instruction: MintTo
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4491 of 200000 compute units
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Transaction processed 2vAMRx1bPBJPZyvHmPqJBmFAHphvbMWvUvYLK5gqp6NBuDh5FtuGzvU9tkJ4uEL54RWmUjrHVR6SqBktWpNYUc3Z
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od invoke [1]
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Program log: Instruction: Swap
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Program log: Instruction: Transfer
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 172100 compute units
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Program log: Instruction: Transfer
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 165525 compute units
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od consumed 40096 of 200000 compute units
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od success
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Transaction processed rhZqjjmZFNsWdsFXY3PhxiR7A9j8NQJmFx7G8cQHj7AjcM6HgLm3wZnSUq5bhDGnkBSmJbXDQm3R7L6mqiK7gXJ
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [1]
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Program log: Instruction: InitializeMint2
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2779 of 202850 compute units
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Transaction processed qqy3XYhFxZpH1a9jwfMmGUnJ5b4yAmLrevvGcMXKqhRBfV4pgcpiBHYSJXzKGmVsaKHY8RtS5eEUsqa3F3UxzJf
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [1]
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Program log: Instruction: InitializeMint2
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2779 of 202850 compute units
+[2026-02-08--21-37-23 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Transaction processed 39NWGHF7hpsZNoG5hYbvih7WQHYgSGRR27aiSjHJZDd2co392kTmM3845tepnHWthcTzq7JBwH3v6Yjg69q4bvGq
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od invoke [1]
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program log: Instruction: Initialize
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [2]
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program log: Instruction: InitializeMint2
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2780 of 190537 compute units
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [2]
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program log: Create
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program log: Instruction: GetAccountDataSize
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 176948 compute units
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [3]
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program log: Initialize the associated token account
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program log: Instruction: InitializeImmutableOwner
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 170335 compute units
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program log: Instruction: InitializeAccount3
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 166451 compute units
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 20490 of 182423 compute units
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [2]
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program log: Create
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program log: Instruction: GetAccountDataSize
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 150929 compute units
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [3]
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program log: Initialize the associated token account
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program log: Instruction: InitializeImmutableOwner
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 144316 compute units
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program log: Instruction: InitializeAccount3
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 140432 compute units
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 20490 of 156404 compute units
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [2]
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od consumed 74493 of 200000 compute units
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od success
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Transaction processed 4tHrydua66XrdH1mvVZ67qbCBrYM55h39F9URLJ5L9s9xViMjBpukCUGJeLo4BLbgA1JJkZMQuUuDgAgbT9T5uJQ
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [1]
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program log: Create
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program log: Instruction: GetAccountDataSize
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 193133 compute units
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [2]
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program log: Initialize the associated token account
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program log: Instruction: InitializeImmutableOwner
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 186520 compute units
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program log: Instruction: InitializeAccount3
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 182638 compute units
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 21859 of 200000 compute units
+[2026-02-08--21-37-24 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+[2026-02-08--21-37-24 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:52902.
+[2026-02-08--21-37-25 INFO surfpool::cli::simnet] Transaction processed 5QrdR6Ypqgz877SWZytRQG8W6FQCBhLcHer7J4Dg7tHuyJ3UCKG5NFwSh2eEcdBeEJZqEX5C41t3DoxTwE2KsRyg
+[2026-02-08--21-37-25 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [1]
+[2026-02-08--21-37-25 INFO surfpool::cli::simnet] Program log: Create
+[2026-02-08--21-37-25 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-25 INFO surfpool::cli::simnet] Program log: Instruction: GetAccountDataSize
+[2026-02-08--21-37-25 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 187133 compute units
+[2026-02-08--21-37-25 INFO surfpool::cli::simnet] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+[2026-02-08--21-37-25 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-25 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [2]
+[2026-02-08--21-37-25 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-25 INFO surfpool::cli::simnet] Program log: Initialize the associated token account
+[2026-02-08--21-37-25 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-25 INFO surfpool::cli::simnet] Program log: Instruction: InitializeImmutableOwner
+[2026-02-08--21-37-25 INFO surfpool::cli::simnet] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+[2026-02-08--21-37-25 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 180520 compute units
+[2026-02-08--21-37-25 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-25 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-25 INFO surfpool::cli::simnet] Program log: Instruction: InitializeAccount3
+[2026-02-08--21-37-25 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 176638 compute units
+[2026-02-08--21-37-25 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-25 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 27859 of 200000 compute units
+[2026-02-08--21-37-25 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+[2026-02-08--21-37-25 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:52906.
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Transaction processed 4ZVh83sZJFKnavF5WUSK8KXGAu1Qm7DzC72mcpyUcphSfWKNd8gYrrVDoKvZmbtPYMuy5yPY33LnLXGJf1ugDrwQ
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [1]
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program log: Create
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program log: Instruction: GetAccountDataSize
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 188633 compute units
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [2]
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program log: Initialize the associated token account
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program log: Instruction: InitializeImmutableOwner
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 182020 compute units
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program log: Instruction: InitializeAccount3
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 178138 compute units
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 26359 of 200000 compute units
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+[2026-02-08--21-37-26 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:52916.
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Transaction processed 5gwH3c6jATmBexBKt74ynVG9hHYf9UxYdfFmnpBSQPQ4qEc3Dd9PVfq4DYZ4TPW3ARSZVZKYu4dXuV1NFcWWuhW6
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program log: Instruction: MintTo
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4491 of 200000 compute units
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Transaction processed 5ZPNQjr3FPM3TTSx3ndMDDk6Uzr4nRVMNZRDRBDTV2QaKMP3XgkNxioMiKcGd1XXPypWLHu47qPPfY7EtC57fnam
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program log: Instruction: MintTo
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4491 of 200000 compute units
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Transaction processed 2avsSX4zwopzXEAPun5zT2v437WThs8u3fNYh49GpLWeh6NyvVfNzYXzU2upxswRaeASBT4RYHGwMshPvdPy8Eni
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od invoke [1]
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program log: Instruction: Deposit
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program log: Instruction: Transfer
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 163478 compute units
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program log: Instruction: Transfer
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 156934 compute units
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program log: Instruction: MintTo
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4492 of 150370 compute units
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od consumed 54659 of 200000 compute units
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od success
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Transaction processed 2pgWpqpV6vxeHVTg31Mk51kgER3GDLzLnQb58PnQJ1EYS4szQxMxLYWcNQe9Hha2HMry79eUigNPkPDzWkeBKTT
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od invoke [1]
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program log: Instruction: Withdraw
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program log: Instruction: Transfer
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 162474 compute units
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program log: Instruction: Transfer
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 155901 compute units
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program log: Instruction: Burn
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4707 of 149357 compute units
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od consumed 56406 of 200000 compute units
+[2026-02-08--21-37-26 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od success
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Transaction processed 2tug1hi2PzGqmkzAvgodEaDpsyLXBF6im6K7i2wcJs9175KUUQeFU5wXMZgg4QTVgcrYcez88xKLjtdz3fnpUDaS
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [1]
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program log: Instruction: InitializeMint2
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2779 of 202850 compute units
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Transaction processed 5VnaseZkhBBAeAjcUW7t7DBY1j1YMDHTJp56m6rWYQyt4rAFBYpChkUsq7QCjzvtmcVnnnTJfuQvqhNCyFeXJBLf
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [1]
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program log: Instruction: InitializeMint2
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2779 of 202850 compute units
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Transaction processed 5B78LDN52G3npkp3yTaA9VHAtdcUihCcqMgLB5HQ2cjFDpbZsx9evACcLYLCL2miKdqbgK2twkG3f9Gcud5rKwqn
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od invoke [1]
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program log: Instruction: Initialize
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [2]
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program log: Instruction: InitializeMint2
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2780 of 190537 compute units
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [2]
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program log: Create
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program log: Instruction: GetAccountDataSize
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 176948 compute units
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [3]
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program log: Initialize the associated token account
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program log: Instruction: InitializeImmutableOwner
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 170335 compute units
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program log: Instruction: InitializeAccount3
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 166451 compute units
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 20490 of 182423 compute units
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [2]
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program log: Create
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program log: Instruction: GetAccountDataSize
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 144929 compute units
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [3]
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program log: Initialize the associated token account
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program log: Instruction: InitializeImmutableOwner
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 138316 compute units
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program log: Instruction: InitializeAccount3
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 134432 compute units
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 23490 of 153404 compute units
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [2]
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od consumed 78993 of 200000 compute units
+[2026-02-08--21-37-27 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od success
+[2026-02-08--21-37-28 INFO surfpool::cli::simnet] Transaction processed 25YAQJJGn3ZZ9wL63CXwHKqwiox3rxzYgs8FodfxkovmC8W7q1ZmkhM2uUgtLrZhntqREKTut5f4ZgR4opZv5n5M
+[2026-02-08--21-37-28 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [1]
+[2026-02-08--21-37-28 INFO surfpool::cli::simnet] Program log: Create
+[2026-02-08--21-37-28 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-28 INFO surfpool::cli::simnet] Program log: Instruction: GetAccountDataSize
+[2026-02-08--21-37-28 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 194633 compute units
+[2026-02-08--21-37-28 INFO surfpool::cli::simnet] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+[2026-02-08--21-37-28 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-28 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [2]
+[2026-02-08--21-37-28 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-28 INFO surfpool::cli::simnet] Program log: Initialize the associated token account
+[2026-02-08--21-37-28 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-28 INFO surfpool::cli::simnet] Program log: Instruction: InitializeImmutableOwner
+[2026-02-08--21-37-28 INFO surfpool::cli::simnet] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+[2026-02-08--21-37-28 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 188020 compute units
+[2026-02-08--21-37-28 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-28 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-28 INFO surfpool::cli::simnet] Program log: Instruction: InitializeAccount3
+[2026-02-08--21-37-28 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 184138 compute units
+[2026-02-08--21-37-28 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-28 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 20359 of 200000 compute units
+[2026-02-08--21-37-28 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+[2026-02-08--21-37-28 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:52924.
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Transaction processed 52EKoDXNCDS1nFnAUy1g6CJLFdArc1ovHh9MMkCTVC4TuvinVsyVhSnBNvPh7oaBNPpufZB4DC8pcpqFFNn1YQCS
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [1]
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program log: Create
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program log: Instruction: GetAccountDataSize
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 194633 compute units
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [2]
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program log: Initialize the associated token account
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program log: Instruction: InitializeImmutableOwner
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 188020 compute units
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program log: Instruction: InitializeAccount3
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 184138 compute units
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 20359 of 200000 compute units
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+[2026-02-08--21-37-29 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:52934.
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Transaction processed FC33AddiYdh35jGPviQcF7k7fTPdvAQmVpCshqqaJZwrgs2weEww7zbNNsC8tN8KmY7rJi28CQJbQbAmH1u5r6e
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [1]
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program log: Create
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program log: Instruction: GetAccountDataSize
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 190133 compute units
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [2]
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program log: Initialize the associated token account
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program log: Instruction: InitializeImmutableOwner
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 183520 compute units
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program log: Instruction: InitializeAccount3
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 179638 compute units
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 24859 of 200000 compute units
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+[2026-02-08--21-37-29 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:52948.
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Transaction processed 43nhiizwv1Eu2vcJiByfQ6vhZKh473nkBnNQa8ndqFR8FbFYPYs18MYp5AejL3roZiqEq6PES1vd42BheafzEEAS
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program log: Instruction: MintTo
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4491 of 200000 compute units
+[2026-02-08--21-37-29 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Transaction processed 5EbVthKLmknUnjnvA1zDmNVkbbdoPP4p8NecYRX5PWDLvjP8TUvqWN8kVBmAbqTtUeMCvyh5GUkgHZLySJtdQ2Qu
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Program log: Instruction: MintTo
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4491 of 200000 compute units
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Transaction processed 3BX2qzpBjmRUC6Xyd8ASv2D9TXUjw21T3oj9AREkfzgYPPKy3Bs9xkPpg7HT239ALV9aZgCWSoBCrGiDFoA37jDr
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od invoke [1]
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Program log: Instruction: Deposit
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Program log: Instruction: Transfer
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 170978 compute units
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Program log: Instruction: Transfer
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 164434 compute units
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Program log: Instruction: MintTo
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4492 of 157870 compute units
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od consumed 47159 of 200000 compute units
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od success
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Transaction processed 3TbyTBxSyBzGT2FEqhHdRcmTfLb9zYoSCtpX52NXiYTbGsGWdLnnBALgbBnFTNeVFDiHmUYrLyH8gnBVZMoqGo34
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Program log: Instruction: MintTo
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4491 of 200000 compute units
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-30 ERROR surfpool::cli::simnet] Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1773
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Transaction processed 5zCc2Ua7LyFTmnStmqj2Vsg8YDW2Wh2Y8tEWAgRNkZrefyQKJtAvfZboEPoxQDqaR397832Hij73qbo3dizouqo4
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [1]
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Program log: Instruction: InitializeMint2
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2779 of 202850 compute units
+[2026-02-08--21-37-30 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-30 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:37608.
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Transaction processed 5z9TPu2UEgeRU73vWTEcVENju7axXgHBUjMcxJ4tcCtm1Cnkbr64UPXWCFVz9Pv186oQLZTp3owo965iDPRboSfU
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [1]
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program log: Instruction: InitializeMint2
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2779 of 202850 compute units
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Transaction processed 4SoBN5zZWgTGQT161zbWANGdcLQE7Z4om3E2WnKZFvr11Y22ZMW8NWrxBiTwTBrbqvyQ4Hi7m711mfDAR6wVQa5b
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od invoke [1]
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program log: Instruction: Initialize
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [2]
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program log: Instruction: InitializeMint2
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2780 of 190537 compute units
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [2]
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program log: Create
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program log: Instruction: GetAccountDataSize
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 176948 compute units
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [3]
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program log: Initialize the associated token account
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program log: Instruction: InitializeImmutableOwner
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 170335 compute units
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program log: Instruction: InitializeAccount3
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 166451 compute units
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 20490 of 182423 compute units
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [2]
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program log: Create
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program log: Instruction: GetAccountDataSize
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 150929 compute units
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [3]
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program log: Initialize the associated token account
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program log: Instruction: InitializeImmutableOwner
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 144316 compute units
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program log: Instruction: InitializeAccount3
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 140432 compute units
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 20490 of 156404 compute units
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [2]
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od consumed 72993 of 200000 compute units
+[2026-02-08--21-37-31 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od success
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Transaction processed 5zV3mGZv3VvADxhzGoJ2rovFGWCm8yNtZvbki98gssyTgMXdsnETZ3dFv7U1oV2vFdG5ggYRBEy7m46anUPmRQUh
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [1]
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program log: Create
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program log: Instruction: GetAccountDataSize
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 194633 compute units
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [2]
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program log: Initialize the associated token account
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program log: Instruction: InitializeImmutableOwner
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 188020 compute units
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program log: Instruction: InitializeAccount3
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 184138 compute units
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 20359 of 200000 compute units
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+[2026-02-08--21-37-32 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:37610.
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Transaction processed 42bts9Wtbzrid1W5ueFTQ3UZwq4weJd8pSHq1ZqwMaNNup4wmyQdc4iysCGpqEirmKKyc2zDzC7ggNaqUnje5EnC
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [1]
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program log: Create
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program log: Instruction: GetAccountDataSize
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 188633 compute units
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [2]
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program log: Initialize the associated token account
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program log: Instruction: InitializeImmutableOwner
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 182020 compute units
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program log: Instruction: InitializeAccount3
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 178138 compute units
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 26359 of 200000 compute units
+[2026-02-08--21-37-32 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+[2026-02-08--21-37-32 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:37622.
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Transaction processed xEzSLNSjAJAvNs1zyyF4VSyyQGcEyReyMDjH3CGo567uyCPFb9st7rptejEgtgbT19xEv1qKynAboAsMRD4oh3S
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [1]
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program log: Create
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program log: Instruction: GetAccountDataSize
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 194633 compute units
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [2]
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program log: Initialize the associated token account
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program log: Instruction: InitializeImmutableOwner
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 188020 compute units
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program log: Instruction: InitializeAccount3
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 184138 compute units
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 20359 of 200000 compute units
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+[2026-02-08--21-37-33 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:37626.
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Transaction processed 4UVrP927ZrCxJ9w2k8EFj2UqcL8wXsfNsaDfMs6MR9LPcTGBtXHMoxBesRE1BXUZusKe9iQPcWjKKPgfawGiLNAY
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program log: Instruction: MintTo
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4491 of 200000 compute units
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Transaction processed Y3tBWvmEi2W3btmUWiRqhX8YKwcruwCMk4KN9i6jn2b7F3bbPZPqUuukbz6X9WB2pt1Pq5N5igizW91TYjQk4wx
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program log: Instruction: MintTo
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4491 of 200000 compute units
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Transaction processed 5icybnLnkRBv5FtHXfVWrbs2mdHyUhNrH1TTdbXNjKRri3g5ZdrirqwUAKf1uWwW5po7qeS5h1yKUYMc8Uzz3aWS
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od invoke [1]
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program log: Instruction: Deposit
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program log: Instruction: Transfer
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 172478 compute units
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program log: Instruction: Transfer
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 165934 compute units
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program log: Instruction: MintTo
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4492 of 159370 compute units
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od consumed 45659 of 200000 compute units
+[2026-02-08--21-37-33 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od success
+[2026-02-08--21-37-34 ERROR surfpool::cli::simnet] Transaction simulation failed: Error processing Instruction 0: custom program error: 0x177e
+[2026-02-08--21-37-34 INFO surfpool::cli::simnet] Transaction processed 4BEE2i19w8kHtpLqEPYeF6AyZBPdQy3BD3GS467XuiJguRvfXxh6xRrjiR5dvxAYhwvxpwaedLYHgzKU136UFDpu
+[2026-02-08--21-37-34 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [1]
+[2026-02-08--21-37-34 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-34 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]
+[2026-02-08--21-37-34 INFO surfpool::cli::simnet] Program log: Instruction: InitializeMint2
+[2026-02-08--21-37-34 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2779 of 202850 compute units
+[2026-02-08--21-37-34 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-34 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:37634.
+[2026-02-08--21-37-34 INFO surfpool::cli::simnet] Transaction processed 4diAqY2Z3Vy3WWbaBuQVeJCMueKjNqc93Ar6QnXSTFa5fzLRrV3rr6NYyJDYztYPG4RoCEqZKVX5skBuAu2jSC9A
+[2026-02-08--21-37-34 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [1]
+[2026-02-08--21-37-34 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-34 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]
+[2026-02-08--21-37-34 INFO surfpool::cli::simnet] Program log: Instruction: InitializeMint2
+[2026-02-08--21-37-34 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2779 of 202850 compute units
+[2026-02-08--21-37-34 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Transaction processed 2R7SBkMrW6vpYyfrHXcqj7dMmd81c6gBX6Mh1m3EGyVmBF3fBygXbggK3uGRQgYLJwvnz4Bo7JBKB3EmXQ5ZPELw
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od invoke [1]
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program log: Instruction: Initialize
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [2]
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program log: Instruction: InitializeMint2
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2780 of 190537 compute units
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [2]
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program log: Create
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program log: Instruction: GetAccountDataSize
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 176948 compute units
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [3]
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program log: Initialize the associated token account
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program log: Instruction: InitializeImmutableOwner
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 170335 compute units
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program log: Instruction: InitializeAccount3
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 166451 compute units
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 20490 of 182423 compute units
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [2]
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program log: Create
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program log: Instruction: GetAccountDataSize
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 147929 compute units
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [3]
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program log: Initialize the associated token account
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program log: Instruction: InitializeImmutableOwner
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 141316 compute units
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program log: Instruction: InitializeAccount3
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 137432 compute units
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 21990 of 154904 compute units
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [2]
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od consumed 75993 of 200000 compute units
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od success
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Transaction processed 3Sc2U1ssrRsqEosW5djaTptFWSRHdxZipDJvqxw1rbbwwJ57PNMr6a685vJjiWU9UGGhDRLRJ4czXLqFJ46jRV73
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [1]
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program log: Create
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program log: Instruction: GetAccountDataSize
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 194633 compute units
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [2]
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program log: Initialize the associated token account
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program log: Instruction: InitializeImmutableOwner
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 188020 compute units
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program log: Instruction: InitializeAccount3
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 184138 compute units
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 20359 of 200000 compute units
+[2026-02-08--21-37-35 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+[2026-02-08--21-37-35 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:37640.
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Transaction processed 4ieVdNTyeZ4Xw89ArN55itaNDv98XCHiDzKAkz5X19Hmzgafwpg7AsULSmNHW8NpEWv4nBF8s7mPoXkyvBq8MKDw
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [1]
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program log: Create
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program log: Instruction: GetAccountDataSize
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 191633 compute units
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [2]
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program log: Initialize the associated token account
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program log: Instruction: InitializeImmutableOwner
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 185020 compute units
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program log: Instruction: InitializeAccount3
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 181138 compute units
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 23359 of 200000 compute units
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+[2026-02-08--21-37-36 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:37652.
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Transaction processed 3LWApdW6ohr8KNcRczrUvLzwyXkhwdA1Wy6Rp6rB6LHuzwXCkTPTUaGfeseaTkYYsBohrHZD8igtVvkuYoxTiz3Z
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [1]
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program log: Create
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program log: Instruction: GetAccountDataSize
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 193133 compute units
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [2]
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program log: Initialize the associated token account
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program log: Instruction: InitializeImmutableOwner
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 186520 compute units
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program log: Instruction: InitializeAccount3
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 182638 compute units
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 21859 of 200000 compute units
+[2026-02-08--21-37-36 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+[2026-02-08--21-37-36 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:37658.
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Transaction processed 213ca7SbX3jCc47tMyTXvH7sYC2yveZfG4wstqdWKoYsbJdRwCswWBnqVRRhy435ebPgaexPvGvRGp9b8FQFtnoH
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Program log: Instruction: MintTo
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4491 of 200000 compute units
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Transaction processed Dag91ZU6JNoRFrnrJiU58GCY4bW8TWfyqnxNGLsV6pACEhN3Y6NdMxKrwGr1DH85zSb4Dm44kMeu5RNYkWhfQqX
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Program log: Instruction: MintTo
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4491 of 200000 compute units
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Transaction processed 3bh1GTiqFSuaiHh6ja5KQyCoQjYDzNZvWCpxjRJJXkr5PrS3K11s2WPCjZmMcQPc14FWEFSsfx1v4Zmdp5EtejRW
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od invoke [1]
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Program log: Instruction: Deposit
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Program log: Instruction: Transfer
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 172478 compute units
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Program log: Instruction: Transfer
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 165934 compute units
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Program log: Instruction: MintTo
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4492 of 159370 compute units
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od consumed 45659 of 200000 compute units
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od success
+[2026-02-08--21-37-37 ERROR surfpool::cli::simnet] Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1780
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Transaction processed 27nttotcAfEaWCFAzTg3kjtQEdipVhc3aVX8YeoCWFg2NSCLVuDVVTkrwz3hLt8MkcQJpowPPoJVfXEPciRveC8L
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [1]
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Program log: Instruction: InitializeMint2
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2779 of 202850 compute units
+[2026-02-08--21-37-37 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-37 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:37662.
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Transaction processed 29hkSadnKi7nxokELZVPgvZvqueoEyHzMQKAAUv9LD6FBhNxJcrbKqiSwr5VUxBVrHo8nYLmSZHoZU8njUmhXX6z
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [1]
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program log: Instruction: InitializeMint2
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2779 of 202850 compute units
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Transaction processed 8Vt4TM4d59sQMa3osZCRyMovWQecxCGK3SBtvNdeksaMAfaFriLMqwY15Jbnn7NdeknK1zNsDdDvMm16qUqR8TF
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od invoke [1]
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program log: Instruction: Initialize
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [2]
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program log: Instruction: InitializeMint2
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2780 of 189037 compute units
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [2]
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program log: Create
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program log: Instruction: GetAccountDataSize
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 172448 compute units
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [3]
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program log: Initialize the associated token account
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program log: Instruction: InitializeImmutableOwner
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 165835 compute units
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program log: Instruction: InitializeAccount3
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 161951 compute units
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 21990 of 179423 compute units
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [2]
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program log: Create
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program log: Instruction: GetAccountDataSize
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 146429 compute units
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [3]
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program log: Initialize the associated token account
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program log: Instruction: InitializeImmutableOwner
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 139816 compute units
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program log: Instruction: InitializeAccount3
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 135932 compute units
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 20490 of 151904 compute units
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [2]
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od consumed 75993 of 200000 compute units
+[2026-02-08--21-37-38 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od success
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Transaction processed 4Nt87Z5vrUBC4QFEM9esCRaRBJnJYhNpYc2usxWpL7xJjS4gbSviocAAs2XxvDmvSjNhEWyCFkAfoyn381jwH9Km
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [1]
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program log: Create
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program log: Instruction: GetAccountDataSize
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 194633 compute units
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [2]
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program log: Initialize the associated token account
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program log: Instruction: InitializeImmutableOwner
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 188020 compute units
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program log: Instruction: InitializeAccount3
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 184138 compute units
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 20359 of 200000 compute units
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+[2026-02-08--21-37-39 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:37664.
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Transaction processed 4fLg9VnxFC1m5FH2mXcnWFvRUMKTAWrF4ABmhrxszM7CDyXUPWcAM4ubXRfq6obEWGewi1pZsiMpxstDdXF8SDyE
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [1]
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program log: Create
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program log: Instruction: GetAccountDataSize
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 191633 compute units
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [2]
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program log: Initialize the associated token account
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program log: Instruction: InitializeImmutableOwner
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 185020 compute units
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program log: Instruction: InitializeAccount3
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 181138 compute units
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 23359 of 200000 compute units
+[2026-02-08--21-37-39 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+[2026-02-08--21-37-39 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:37672.
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Transaction processed 2f8ej4fTRpmEZcRB1vAMGku7e16ExAPVvNUM1CLB7n9LJYZERS5svGexB4jzTVRoEQwpcDWzY67pK599cnhb3prZ
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [1]
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program log: Create
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program log: Instruction: GetAccountDataSize
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 193133 compute units
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 invoke [2]
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program 11111111111111111111111111111111 success
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program log: Initialize the associated token account
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program log: Instruction: InitializeImmutableOwner
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 186520 compute units
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program log: Instruction: InitializeAccount3
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 182638 compute units
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 21859 of 200000 compute units
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+[2026-02-08--21-37-40 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:37684.
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Transaction processed 2fMY55Q8Td95LGmokNJeGbA9G44u3XLCCuRzxLDv4hqpTt2QqDp6tpr8g7nKV2HMoKk1NoyTkH77pLGH7GbTPJ3a
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program log: Instruction: MintTo
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4491 of 200000 compute units
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Transaction processed 4922iJFo85NNZ2arHjghGVJx9CUptWZ2eeVrGD8bTj7MViunC4SUhLS1huuMKxHSM1SGCQzHgoTkayALGMMS3zco
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program log: Instruction: MintTo
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4491 of 200000 compute units
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Transaction processed 5r8EHriPAs5ymBWkie6VKEhPFeM9xSHqTqiJQaayNyemWRAX9PTgFBD8Fm4ou8FgwR1hcqeJbu6AMGGUdwoNrNuR
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od invoke [1]
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program log: Instruction: Deposit
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program log: Instruction: Transfer
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 172478 compute units
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program log: Instruction: Transfer
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4645 of 165934 compute units
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program log: Instruction: MintTo
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4492 of 159370 compute units
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od consumed 45659 of 200000 compute units
+[2026-02-08--21-37-40 INFO surfpool::cli::simnet] Program PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od success
+[2026-02-08--21-37-41 ERROR surfpool::cli::simnet] Transaction simulation failed: Error processing Instruction 0: custom program error: 0x1781

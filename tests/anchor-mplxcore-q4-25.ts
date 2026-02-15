@@ -1,6 +1,6 @@
 import * as anchor from "@coral-xyz/anchor";
 import { Program } from "@coral-xyz/anchor";
-import { AnchorMplxcoreQ425 } from "../target/types/anchor_mplxcore_q4_25";
+import { AnchorMplxcore } from "../target/types/anchor_mplxcore.ts";
 import { PublicKey, Keypair, SystemProgram } from "@solana/web3.js";
 import { assert } from "chai";
 import { MPL_CORE_PROGRAM_ID } from "@metaplex-foundation/mpl-core";
@@ -9,7 +9,7 @@ describe("anchor-mplxcore-q4-25", () => {
   // Configure the client to use the local cluster.
   const provider = anchor.AnchorProvider.env();
   anchor.setProvider(provider);
-  const program = anchor.workspace.AnchorMplxcoreQ425 as Program<AnchorMplxcoreQ425>;
+  const program = anchor.workspace.AnchorMplxcore as Program<AnchorMplxcore>;
   const connection = provider.connection;
 
   // Accounts
@@ -299,6 +299,33 @@ describe("anchor-mplxcore-q4-25", () => {
         assert.fail("Should have failed with unauthorized authority");
       } catch (err) {
         assert.equal(err.error.errorCode.code, "NotAuthorized", "Expected NotAuthorized error");
+      }
+    });
+  });
+
+  describe("UpdateNft", () => {
+    it("Updates an NFT", async () => {
+      const newName = "Updated NFT Name";
+      const newUri = "https://updated-uri.com";
+
+      try {
+        await program.methods
+          .updateNft(newName, newUri)
+          .accountsStrict({
+            owner: payer.publicKey,
+            asset: asset.publicKey,
+            collection: collection.publicKey,
+            collectionAuthority: collectionAuthorityPda,
+            coreProgram: MPL_CORE_PROGRAM_ID,
+            systemProgram: SystemProgram.programId,
+          })
+          .rpc();
+      } catch (error: any) {
+        console.error(`Oops, something went wrong: ${error}`);
+        if (error.logs) {
+          error.logs.forEach((log: string) => console.log(log));
+        }
+        throw error;
       }
     });
   });

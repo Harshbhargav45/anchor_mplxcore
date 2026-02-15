@@ -1,0 +1,19 @@
+[2026-02-08--21-09-58 INFO txtx::svm::deploy_program] [Recovery Instructions] - An ephemeral authority account will be created and funded to write to the buffer account.
+[2026-02-08--21-09-58 INFO txtx::svm::deploy_program] [Recovery Instructions] - Please save the following information in case the deployment fails and the account needs to be recovered:
+[2026-02-08--21-09-58 INFO txtx::svm::deploy_program] [Recovery Instructions] - Ephemeral authority public key: Bqud6wKrB5x237MKyzrezLtrzDFXc3GALUmcE5TwgSmd
+[2026-02-08--21-09-58 INFO txtx::svm::deploy_program] [Recovery Instructions] - Ephemeral authority secret key: [147, 106, 130, 194, 178, 19, 208, 21, 170, 249, 186, 102, 137, 89, 161, 236, 116, 170, 186, 19, 42, 204, 21, 235, 78, 107, 121, 216, 60, 93, 92, 36, 161, 28, 63, 157, 144, 237, 47, 195, 111, 104, 143, 250, 127, 118, 167, 46, 122, 208, 225, 147, 15, 165, 83, 116, 109, 128, 115, 174, 45, 115, 210, 216]
+[2026-02-08--21-09-58 INFO txtx::svm::deploy_program] Pending - Sending transaction 1/367
+[2026-02-08--21-09-59 INFO txtx::svm::deploy_program] Account Created - Ephemeral authority account created and funded to write to buffer
+[2026-02-08--21-09-59 INFO txtx::svm::deploy_program] [Recovery Instructions] - Creating program buffer account at pubkey 9Ao1r5tZPz1dCGGgbyNhAwSusfwEPMqQfsRb5HmnPnCP
+[2026-02-08--21-10-00 INFO txtx::svm::deploy_program] Account Created - Program buffer account created
+[2026-02-08--21-11-01 INFO txtx::svm::deploy_program] Buffer Ready - Writing to buffer account is complete
+[2026-02-08--21-11-02 ERROR txtx::svm::send_transaction] Failed - Failed to broadcast transaction
+[2026-02-08--21-11-02 ERROR txtx::svm::send_transaction] Failed - error: unable to send and confirm transaction (RPC response error -32002: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x0: 3 log messages:
+Program 11111111111111111111111111111111 invoke [1]
+Create Account: account Address { address: PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od, base: None } already in use
+Program 11111111111111111111111111111111 failed: custom program error: 0x0; 3 log messages:
+  Program 11111111111111111111111111111111 invoke [1]
+  Create Account: account Address { address: PNFDFLUeBCM8hTUTAmRWshk9s2y3hWAYxrUcYRhL3od, base: None } already in use
+  Program 11111111111111111111111111111111 failed: custom program error: 0x0
+)
+[2026-02-08--21-11-02 ERROR surfpool::cli] Runbook execution failed

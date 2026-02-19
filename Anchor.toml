@@ -6,7 +6,7 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-anchor_mplxcore_q4_25 = "3feeK7HhTHmmr9ofcsNSb5QjQ6c8Vyhsko6E377Eo2yC"
+anchor_mplxcore_q4_25 = "9EKui79FtFyU7posy4aJTRf7MhhCcVXxXNh4wpimXTxY"
 
 [registry]
 url = "https://api.apr.dev"
@@ -17,3 +17,5 @@ wallet = "~/.config/solana/id.json"
 
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 \"tests/**/*.ts\""
+
+[hooks]

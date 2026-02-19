@@ -15,6 +15,10 @@ pub struct UpdateNft<'info> {
     /// CHECK: We manually check ownership in the handler
     pub asset: UncheckedAccount<'info>,
     /// CHECK: Verified by seeds constraint on collection_authority
+    #[account(
+        constraint = collection.owner == &CORE_PROGRAM_ID @MPLXCoreError::InvalidCollection,
+        constraint = !collection.data_is_empty() @MPLXCoreError::CollectionNotInitialized,
+    )]
     pub collection: UncheckedAccount<'info>,
     #[account(
         mut,
@@ -33,7 +37,8 @@ impl<'info> UpdateNft<'info> {
         let collection_authority = &self.collection_authority;
         
         // Deserialize asset to check owner using Borsh directly
-        let asset_data = BaseAssetV1::try_from_slice(&self.asset.data.borrow())?;
+        let mut data: &[u8] = &self.asset.data.borrow();
+        let asset_data = BaseAssetV1::deserialize(&mut data)?;
         require!(asset_data.owner == self.owner.key(), MPLXCoreError::NotAuthorized);
 
         let collection_key = self.collection.key();
@@ -49,6 +54,7 @@ impl<'info> UpdateNft<'info> {
             .payer(&self.owner.to_account_info())
             .new_name(new_name)
             .new_uri(new_uri)
+            .system_program(&self.system_program.to_account_info())
             .invoke_signed(signer_seeds)?;
         
         Ok(())

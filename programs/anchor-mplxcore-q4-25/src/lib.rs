@@ -7,7 +7,7 @@ mod error;
 use instructions::*;
 // use state::*;
 
-declare_id!("62RT8AN4zK2GAFqgnyHttBiNNT3Kjd5XfDKm98W7vo3S");
+declare_id!("9EKui79FtFyU7posy4aJTRf7MhhCcVXxXNh4wpimXTxY");
 
 #[program]
 pub mod anchor_mplxcore {
